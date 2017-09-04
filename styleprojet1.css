@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'PressStart2P';
+	src: url('PressStart2P.ttf');
+} 
+
+body {
+	background-color: black;
+	font-family: 'PressStart2P';
+}
+
+header {
+	text-align: center;
+	color: white;
+}
+
+header p {
+	font-size: 14px;
+}	
+	
+h1 {
+	font-size: 48px;
+	margin-bottom: 15px;
+}
+
+canvas {
+	width: 500px;
+	height: 500px;
+	display: block;
+    margin: 40px 50px 50px 70px;
+	border: 8px dashed white;
+	float: left;	
+}
+
+#cv {
+	width: 200px;
+	height: 500px;
+	margin: 40px 50px 50px 40px;
+	float: left;	
+}
+
+#competences {
+	width: 350px;
+	height: 500px;
+	padding: 0;
+	margin: 40px 50px 50px 40px;
+	float: left;
+}	
+
+p {
+	color: white;
+}
+
+span {
+	color:red;
+}
+
+a {
+text-decoration: none;
+color: white;
+}	
+
+footer {
+	clear: both;	
+}
